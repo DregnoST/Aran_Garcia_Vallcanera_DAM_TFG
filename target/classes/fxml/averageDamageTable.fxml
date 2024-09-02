@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="360.0" styleClass="content-card" stylesheets="@../css/navigation.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AverageDamageTableController">
+   <children>
+      <Label text="Average Damage Table">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="15.0" />
+         </VBox.margin></Label>
+      <TableView fx:id="averageDamgeTableView" focusTraversable="false" prefHeight="360.0">
+        <columns>
+            <TableColumn fx:id="unitColumn" editable="false" prefWidth="50.0" text="Units" />
+          <TableColumn fx:id="save2Column" editable="false" prefWidth="50.0" text="2+" />
+          <TableColumn fx:id="save3Column" editable="false" prefWidth="50.0" text="3+" />
+          <TableColumn fx:id="save4Column" editable="false" prefWidth="50.0" text="4+" />
+          <TableColumn fx:id="save5Column" editable="false" prefWidth="50.0" text="5+" />
+          <TableColumn fx:id="save6Column" editable="false" prefWidth="50.0" text="6+" />
+          <TableColumn fx:id="save7Column" editable="false" prefWidth="50.0" text="-" />
+        </columns>
+         <VBox.margin>
+            <Insets bottom="1.0" left="10.0" right="10.0" top="10.0" />
+         </VBox.margin>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+   <padding>
+      <Insets bottom="8.0" top="6.0" />
+   </padding>
+</VBox>

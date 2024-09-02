@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minWidth="300.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" stylesheets="@../css/navigation.css" fx:controller="controllers.discreteChartSave7Controller">
+   <children>
+      <LineChart fx:id="lineChart" animated="false" minWidth="300.0" title="Damage Probability (-)" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <xAxis>
+            <CategoryAxis side="BOTTOM">
+               <tickLabelFont>
+                  <Font size="14.0" />
+               </tickLabelFont>
+            </CategoryAxis>
+         </xAxis>
+         <yAxis>
+            <NumberAxis label="Probability (%)" side="LEFT">
+               <tickLabelFont>
+                  <Font size="14.0" />
+               </tickLabelFont>
+            </NumberAxis>
+         </yAxis>
+      </LineChart>
+   </children>
+</AnchorPane>

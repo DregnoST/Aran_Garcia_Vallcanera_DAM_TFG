@@ -1,0 +1,75 @@
+
+.button {
+	-fx-background-color: #68CDDA;
+	-fx-text-fill: white;
+	-fx-font-size: 12pt;
+    -fx-font-weight: bold;
+}
+
+
+* :focused {
+ 
+}
+
+.warning-label {
+	-fx-text-fill: red;
+}
+
+.text-field-valid {
+	-fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+}
+
+.text-field-invalid {
+	-fx-background-insets: 0;
+	-fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+	-fx-border-color: red;
+}
+
+.content-card {
+	-fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-border-color: #68CDDA;
+    -fx-border-width: 2px;
+    
+}
+
+.navigation-border {
+    -fx-border-color: #68CDDA;
+    -fx-border-width: 1px;
+    
+    
+}
+
+.chart {
+	-fx-font-size: 14px;
+}
+
+.chart-axis-label {
+	-fx-font-size: 14px;
+}
+
+
+.sub-title-container{
+	-fx-background-color: #68CDDA;
+}
+
+.title-container{
+	-fx-background-color: #5AB0BC;
+}
+
+.title-text{
+	-fx-text-fill: white;
+}
+
+.weapon-container {
+	-fx-background-color: #81CEEB;
+	-fx-background-color: #68CDDA;
+}
+
+.navigation-icon:hover {
+    -fx-background-color: #555;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
