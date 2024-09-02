@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.InfoController">
+   <children>
+      <AnchorPane prefHeight="45.0" prefWidth="200.0" AnchorPane.bottomAnchor="355.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="45.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label contentDisplay="CENTER" focusTraversable="false" text="INFO">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+      <ScrollPane fitToWidth="true" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="45.0">
+         <content>
+            <HBox alignment="TOP_CENTER">
+               <children>
+                  <VBox alignment="TOP_CENTER" maxWidth="600.0" spacing="6.0">
+                     <children>
+                        <Label contentDisplay="CENTER" focusTraversable="false" text="Numhammer">
+                           <font>
+                              <Font name="System Bold" size="36.0" />
+                           </font>
+                        </Label>
+                        <Label maxWidth="1.7976931348623157E308" text="A tool for calculating and comparing damage done by units in the tabletop wargame Warhammer Age of Sigmar." wrapText="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="20.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label contentDisplay="CENTER" focusTraversable="false" text="Average Damage Stats">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="6.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label maxWidth="1.7976931348623157E308" text="Shows the average damage each unit is expected to do against each possible save. This average is a calculated value (not simulated)." wrapText="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="20.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label contentDisplay="CENTER" focusTraversable="false" text="Profile Modifiers">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="6.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label maxWidth="1.7976931348623157E308" text="Add various modifiers, or abilities, to your unit/weapon profiles in order to replicate the vast array of unit rules/abilities." wrapText="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="20.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label contentDisplay="CENTER" focusTraversable="false" text="Targuet Modifiers">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                        <Label maxWidth="1.7976931348623157E308" text="Add various modifiers, or abilities, to the target to which stats are generated against (the opponents unit)." wrapText="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label contentDisplay="CENTER" focusTraversable="false" text="Simulations">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                        <Label maxWidth="1.7976931348623157E308" text="Generating X simulations to gather Discrete, and Cumulative Probability metrics. The number of simulations is customizable from the simulations screen." wrapText="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label contentDisplay="CENTER" focusTraversable="false" text="Database">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                        <Label maxWidth="1.7976931348623157E308" text="Ability to connect to a MongoDB database in which to store or load unit profiles." wrapText="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </HBox>
+         </content>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </ScrollPane>
+   </children>
+   <padding>
+      <Insets top="10.0" />
+   </padding>
+</AnchorPane>
